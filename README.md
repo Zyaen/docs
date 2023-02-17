@@ -1,2 +1,2 @@
 # docs
-misc documatation, my know how organized by theme
+misc documatation, my know how organized by themes

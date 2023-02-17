@@ -46,6 +46,7 @@ Device       Start       End   Sectors   Size Type
 
 mount and install: 
 ````sh 
+[ "ls /dev/sda1" == "/dev/sda1" ] && mknod /dev/sda1 b 8 1
 mkfs.vfat /dev/sda15
 mkfs.ext4 /dev/sda1
 mount /dev/sda1 /mnt
