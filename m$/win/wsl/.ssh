@@ -6,3 +6,8 @@ chmod 644 ~/.ssh/known_hosts
 chmod 644 ~/.ssh/config
 chmod 600 ~/.ssh/id_rsa
 chmod 644 ~/.ssh/id_rsa.pub
+
+!Achtung: ntfs not has linux fs permissions, u need activate metadata:
+/etc/wsl.conf
+[automount]
+options="metadata"
