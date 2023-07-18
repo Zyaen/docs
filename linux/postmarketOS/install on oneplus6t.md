@@ -1,14 +1,13 @@
 credits && resources: https://wiki.postmarketos.org/wiki/
 
 ### Install
-````postmarket
-init
-install --split
-export
-shutdown
-cd /tmp/postmarketOS-export
-ls
 ````
+pmbootstrap init
+pmbootstrap install --split
+pmbootstrap export
+pmbootstrap shutdown
+````
+navigate to /tmp/postmarketOS-export and flash this files with fastboot
 | file | where to flash |
 |--|--|
 | boot.img | boot |
@@ -18,9 +17,9 @@ ls
 | vmlinuz |  |
 
 ````fastboot
-erase dtbo
-reboot
+fastboot erase dtbo
 ````
+### DONE
 inside postmarketOS: 
 ````
 sudo resize2fs /dev/sda17
