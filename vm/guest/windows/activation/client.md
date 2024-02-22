@@ -4,6 +4,18 @@ set custom kms server
 ````powershell
 sudo slmgr /skms 192.168.1.70:1688
 ````
+unistall it
+````powershell
+sudo slmgr /upk
+````
+clear it
+````powershell
+sudo slmgr /cpky
+````
+set it
+````powershell
+sudo slmgr /ipk 12345-12345-12345-12345-12345
+````
 activate it
 ````powershell
 sudo slmgr /ato
