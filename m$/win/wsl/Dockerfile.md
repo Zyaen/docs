@@ -2,6 +2,7 @@
 install docker
 
 create a command to script to start it
+
 cat /usr/local/bin/prepare-hosts
 ```
 #!/bin/sh
