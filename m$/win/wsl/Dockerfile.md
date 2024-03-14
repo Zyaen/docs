@@ -1,7 +1,7 @@
 ### How to docker in WSL, without docker desktop that sucks
 install docker
 
-create a command to script to start it
+create a script to start it
 
 cat /usr/local/bin/prepare-hosts
 ```
